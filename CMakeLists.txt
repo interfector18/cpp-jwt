@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.14.0)
 project(cpp-jwt VERSION 1.5.0)
 
 option(CPP_JWT_BUILD_EXAMPLES "build examples" ON)
-option(CPP_JWT_BUILD_TESTS "build tests" ON)
+option(CPP_JWT_BUILD_TESTS "build tests" OFF)
 option(CPP_JWT_USE_VENDORED_NLOHMANN_JSON "use vendored json header" ON)
 
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_BINARY_DIR})
